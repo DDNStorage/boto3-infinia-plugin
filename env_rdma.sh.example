@@ -1,0 +1,9 @@
+export CUFILE_ENV_PATH_JSON=/path/to/cufile.json
+export AWS_REGION=us-east-1
+export AWS_ACCESS_KEY_ID=<your-access-key-id>
+export AWS_SECRET_ACCESS_KEY=<your-secret-access-key>
+export AWS_ENDPOINT_URL_S3=https://your-infinia-server:8111
+
+# Disable aws-chunked encoding
+export AWS_REQUEST_CHECKSUM_CALCULATION=WHEN_REQUIRED
+export AWS_RESPONSE_CHECKSUM_VALIDATION=WHEN_REQUIRED

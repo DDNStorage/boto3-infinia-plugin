@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local RDMA environment config (contains real credentials)
+env_rdma.sh
+
+# Backup files
+*.backup
+*.bak
+*.old
+*.swp
+*.swo
+*.tmp
+*~

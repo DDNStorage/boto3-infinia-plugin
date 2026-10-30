@@ -37,13 +37,15 @@ from .exceptions import (
     RDMANotSupportedError,
     RDMAConnectionError,
     RDMATokenError,
+    RDMALibraryNotFoundError,
 )
 
-__version__ = "2.5.0"
+__version__ = "2.5.1"
 __all__ = [
     "Boto3RdmaPlugin",
     "RDMAPluginError",
     "RDMANotSupportedError",
     "RDMAConnectionError",
     "RDMATokenError",
+    "RDMALibraryNotFoundError",
 ]

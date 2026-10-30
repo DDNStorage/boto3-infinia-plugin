@@ -22,4 +22,4 @@ dependencies (e.g. cppyy for RDMA) are only needed by the features you use:
     from boto3_infinia.tagging import Boto3TaggingPlugin
 """
 
-__version__ = "2.5.0"
+__version__ = "2.5.1"

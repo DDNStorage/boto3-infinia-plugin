@@ -1,6 +1,6 @@
 [project]
 name = "boto3-infinia-plugin"
-version = "2.5.0"
+version = "2.5.1"
 description = "Boto3 extensions for DDN Infinia (RDMA acceleration, unlimited tagging)"
 readme = "README.md"
 license = "Apache-2.0"
